@@ -29,9 +29,9 @@
 				  
                         <h4 class="footer-title">Address</h4>
 						 <ul>
-                            <li><p class="">House#45, Rd#5, Block# D</p></li>
-                            <li> <p class="">Mirpur, Dhaka, Bangladesh</p></li>
-                           
+                            <li><p class="">House# 27, Road# 11, </p></li>
+                            <li> <p class="">Block# D, Mirpur-12,</p></li>
+                            <li> <p class="">Dhaka-1216, Bangladesh</p></li>
                         </ul>
                         
                            
