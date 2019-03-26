@@ -59,9 +59,9 @@ get_header(); // This fxn gets the header.php file and renders it ?>
                                     
                                     <li class="span2">
                                         <p class="location-name">Bangladesh:</p>
-                                        <p>House 69, Road 11<br/>
-                                        Block 6, Mirpur<br/>
-                                        Dhaka-1207<br/>
+                                        <p>House# 27, Road# 11,<br/>
+                                        Block# D, Mirpur-12<br/>
+                                        Dhaka-1216<br/>
                                         Bangladesh</p>
                                     </li>
                                 </ul>
