@@ -72,7 +72,7 @@ get_header(); // This fxn gets the header.php file and renders it ?>
                                         <p><span class="pri-start">(e.g cycle) </span><span class="pri-number">$4.89</span></p>
                                     </li>
 									<li>
-                                        <a href="#">Place an Order !</a>
+                                        <a href="<?php echo get_permalink( get_page_by_path( 'contact' ));?>">Place an Order !</a>
                                     </li>
                                 </ul>
                             </li>
@@ -102,7 +102,7 @@ get_header(); // This fxn gets the header.php file and renders it ?>
                                         <p><span class="pri-start">(e.g cycle) </span><span class="pri-number">$3.49</span></p>
                                     </li>
                                     <li>
-                                        <a href="#">Place an Order !</a>
+                                       <a href="<?php echo get_permalink( get_page_by_path( 'contact' ));?>">Place an Order !</a>
                                     </li>
                                 </ul>
                             </li>
@@ -132,7 +132,7 @@ get_header(); // This fxn gets the header.php file and renders it ?>
                                         <p><span class="pri-start">(e.g cycle) </span><span class="pri-number">$2.99</span></p>
                                     </li>
 									 <li>
-                                        <a href="#">Place an Order !</a>
+                                       <a href="<?php echo get_permalink( get_page_by_path( 'contact' ));?>">Place an Order !</a>
                                     </li>
                                 </ul>
                             </li>
@@ -140,7 +140,7 @@ get_header(); // This fxn gets the header.php file and renders it ?>
                         <div class="clear"></div>
                         <div class="row all-portfolio">
                             <div class="span12 text-center">
-                                <a href="#" class="text">Get special discount on bulk order</a>
+                                <a href="<?php echo get_permalink( get_page_by_path( 'contact' ));?>" class="text">Get special discount on bulk order</a>
                             </div>
                         </div>
                     </div>

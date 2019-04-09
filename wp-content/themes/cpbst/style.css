@@ -4105,6 +4105,15 @@ fieldset {
                 color: #E5E5E5;
             }
 
+#layer-02-slide-02a {
+    top: 0%;
+    left:50%;
+}
+#layer-02-slide-01a {
+    top: 0%;
+    left:0%;
+}
+
 #layer-03-slide-01 {
     top: 0%;
     left: 66%;
@@ -5872,4 +5881,11 @@ fieldset {
 
 .refund-policy ol, .refund-policy ul {
     margin: 0 0 10px 25px;
+}
+.service-widget-image {
+    height: 250px;
+    margin-top: 45px;
+}
+ul.contact-form li.attachement span {
+    background: url(assets/images/attachmen.png) no-repeat center;
 }

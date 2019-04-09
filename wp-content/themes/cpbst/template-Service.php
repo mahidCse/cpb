@@ -29,7 +29,7 @@ get_header(); // This fxn gets the header.php file and renders it ?>
         <div class="container">
             <div class="row">
                 <div class="content-area">
-                    <div class="span9 offset1">
+                    <div class="span8 offset1">
 					<?php if ( have_posts() ) : 
 					// Do we have any posts in the databse that match our query?
 					?>
@@ -55,8 +55,17 @@ get_header(); // This fxn gets the header.php file and renders it ?>
 
 					<?php endif; // OK, I think that takes care of both scenarios (having a post or not having a post to show) ?>
                     </div>
-                    <div class="span2 thumb">
-                        <img class="man-cut right" src="<?php echo get_template_directory_uri();?>/assets/images/clipping.png" alt="man-cut-clipping">
+                    <div class="span3 thumb">
+					<?php 
+ 
+							if (class_exists('MultiPostThumbnails')) : 
+ 
+							MultiPostThumbnails::the_post_thumbnail(get_post_type(), 'secondary-image');
+ 
+							endif;
+ 
+							 ?>
+                        <!--<img class="service-widget-image right" src="<?php echo get_template_directory_uri();?>/assets/images/complexity/complexity-04.png" alt="man-cut-clipping">-->
                     </div>
                     <div class="clear"></div>
                     <div class="span12">

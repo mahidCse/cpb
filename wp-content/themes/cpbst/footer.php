@@ -7,23 +7,25 @@
                 <div class="row">
                     <div class="span3 box quick-links">
                         <h4 class="footer-title">Information</h4>
-                        <ul>
+						<?php wp_nav_menu( array( 'theme_location' => 'footer' ) ); ?>
+                       <!-- <ul>
                             <li><a rel="nofollow" target="_blank" href="#">Terms &amp; Condition</a></li>
                             <li><a rel="nofollow" target="_blank" href="#">Privacy Policy</a></li>
                             <li><a rel="nofollow" target="_blank" href="#">About</a></li>
                             <li><a rel="nofollow" target="_blank" href="#">Contact</a></li>
-                        </ul>
+                        </ul>-->
                     </div>
                     <div class="span3 box quick-links">
                         <h4 class="footer-title">Services</h4>
-                        <ul>
+						<?php wp_nav_menu( array( 'theme_location' => 'footer-service' ) ); ?>
+                       <!-- <ul>
                             <li><a href="#">Clipping Path</a></li>
                             <li><a href="#">Masking</a></li>
                             <li><a href="#">Retouching</a></li>
                             <li><a href="#">Color Correction</a></li>
                             <li><a href="#">Shadow Creation</a></li>
                             <li><a href="#">UI Design</a></li>
-                        </ul>
+                        </ul>-->
                     </div>
                    <div class="span3 box">
 				  
@@ -45,22 +47,22 @@
                             <li>
                                 <img class="left" src="<?php echo get_template_directory_uri();?>/assets/images/social/fb.png" alt="facebook-link">
                                 <div class="link-text">
-                                    <a rel="nofollow" target="_blank" href="https://facebook.com/clippingpathbest">Like us on Facebook</a>
-                                    <div class="fb-like" data-href="https://www.facebook.com/clippingpathbest" data-width="450" data-layout="button_count" data-show-faces="true" data-send="true"></div>
+                                    <a rel="nofollow" target="_blank" href="https://www.facebook.com/clippingpath.best.92">Like us on Facebook</a>
+                                    <div class="fb-like" data-href="https://www.facebook.com/clippingpath.best.92" data-width="450" data-layout="button_count" data-show-faces="true" data-send="true"></div>
                                 </div>
                             </li>
                            
                             <li>
                                 <img class="left" src="<?php echo get_template_directory_uri();?>/assets/images/social/ln.png" alt="linkedin-link">
                                 <div class="link-text">
-                                    <a rel="nofollow" target="_blank" href="http://linkedin.com/in/clippingpathbest">Follow us on LinkedIn</a>
+                                    <a rel="nofollow" target="_blank" href="https://www.linkedin.com/in/clippingpath-best-720682183">Follow us on LinkedIn</a>
                                     
                                 </div>
                             </li>
                            <li>
                                 <img class="left" src="<?php echo get_template_directory_uri();?>/assets/images/social/tw.png" alt="twitter-link">
                                 <div class="link-text">
-                                    <a rel="nofollow" target="_blank" href="https://twitter.com/">Follow us on Twitter</a>
+                                    <a rel="nofollow" target="_blank" href="https://twitter.com/best_clipping">Follow us on Twitter</a>
                                     
                                 </div>
                             </li>
@@ -74,14 +76,14 @@
 							<li>
                                 <img class="left" src="<?php echo get_template_directory_uri();?>/assets/images/social/ig.png" alt="insta-link">
                                 <div class="link-text">
-                                    <a rel="nofollow" target="_blank" href="https://www.instagram.com/clippingpathbest">Follow us on Instagram</a>
+                                    <a rel="nofollow" target="_blank" href="https://www.instagram.com/clippingpathbestdhaka">Follow us on Instagram</a>
                                     
                                 </div>
                             </li>
                      <li>
                                 <img class="left" src="<?php echo get_template_directory_uri();?>/assets/images/social/yt.png" alt="youtube-link">
                                 <div class="link-text">
-                                    <a rel="nofollow" target="_blank" href="https://www.youtube.com/">Subscribe on Youtube</a>
+                                    <a rel="nofollow" target="_blank" href="https://www.youtube.com/channel/UCaXAXDZPH0GoVja4-xEuVNg">Subscribe on Youtube</a>
                                     
                                 </div>
                             </li>

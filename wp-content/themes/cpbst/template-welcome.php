@@ -20,11 +20,11 @@ get_header(); // This fxn gets the header.php file and renders it ?>
 
                 <div id="layer-01-slide-01" class="ls-s6" style="layer1-sublayer2" data-rel="delayin: 100; slidedirection: right; slideoutdirection: left; durationin: 1500;">
                     <p>REFLECTION</p>
-                    <img src="<?php echo get_template_directory_uri();?>/assets/images/home-slider/image-06.png" alt="home-slider-01">
+                    <img src="<?php echo get_template_directory_uri();?>/assets/images/home-slider/reflection-image-06.jpg" alt="home-slider-01">
                 </div>
 
                 <div id="layer-01-slide-02" class="ls-s4" style="layer1-sublayer3" data-rel="delayin: 100; slidedirection: bottom; slideoutdirection: bottom; durationin: 2000;">
-                    <img src="<?php echo get_template_directory_uri();?>/assets/images/home-slider/image-04.png" alt="home-slider-02">
+                    <img src="<?php echo get_template_directory_uri();?>/assets/images/home-slider/perfect-clipping-image-04.jpg" alt="home-slider-02">
                     <p>CLIPPING PATH</p>
                 </div>
 
@@ -35,14 +35,20 @@ get_header(); // This fxn gets the header.php file and renders it ?>
                    <!--  <a href="inside/auth.html" class="slider-button">Try 3 Images for free now <span>></span></a> -->
                 </div>
             </div>
+		<div class="ls-layer">
+			
+                <div id="layer-02-bg" class="ls-bg" style="layer2-background"></div>
+				 <img id="layer-02-slide-01a" class="ls-s6" src="<?php echo get_template_directory_uri();?>/assets/images/home-slider/Clipping-Path--2a.jpg" style="layer2-sublayer3" data-rel="delayin: 100; slidedirection: right; slideoutdirection: left; durationin: 1500;" alt="home-slider-02-01">
+                <img id="layer-02-slide-02a" class="ls-s6" src="<?php echo get_template_directory_uri();?>/assets/images/home-slider/Clipping-Path--2b.jpg" style="layer2-sublayer2" data-rel="delayin: 100; slidedirection: right; slideoutdirection: bottom; durationin: 2000;" alt="home-slider-02-01">
+               
+				
+		   </div>
 			<div class="ls-layer">
 			
-                <div id="layer-02-bg" class="ls-bg" style="layer2-background">
-				
-				</div>
-                <img id="layer-03-slide-01" class="ls-s6" src="<?php echo get_template_directory_uri();?>/assets/images/home-slider/Images Masking-1c.png" style="layer2-sublayer2" data-rel="delayin: 100; slidedirection: right; slideoutdirection: bottom; durationin: 2000;" alt="home-slider-02-01">
-                <img id="layer-03-slide-02" class="ls-s6" src="<?php echo get_template_directory_uri();?>/assets/images/home-slider/Images Masking-1b.png" style="layer2-sublayer3" data-rel="delayin: 100; slidedirection: right; slideoutdirection: left; durationin: 1500;" alt="home-slider-02-01">
-                <img id="layer-03-slide-03" class="ls-s6" src="<?php echo get_template_directory_uri();?>/assets/images/home-slider/Images Masking-1a.png" style="layer2-sublayer3" data-rel="delayin: 100; slidedirection: right; slideoutdirection: left; durationin: 1000;" alt="home-slider-02-01">
+                <div id="layer-02-bg" class="ls-bg" style="layer2-background"></div>
+                <img id="layer-03-slide-01" class="ls-s6" src="<?php echo get_template_directory_uri();?>/assets/images/home-slider/Images-Masking-1a.jpg" style="layer2-sublayer2" data-rel="delayin: 100; slidedirection: right; slideoutdirection: bottom; durationin: 2000;" alt="home-slider-02-01">
+                <img id="layer-03-slide-02" class="ls-s6" src="<?php echo get_template_directory_uri();?>/assets/images/home-slider/Images-Masking-1b.jpg" style="layer2-sublayer3" data-rel="delayin: 100; slidedirection: right; slideoutdirection: left; durationin: 1500;" alt="home-slider-02-01">
+                <img id="layer-03-slide-03" class="ls-s6" src="<?php echo get_template_directory_uri();?>/assets/images/home-slider/Images-Masking-1a.jpg" style="layer2-sublayer3" data-rel="delayin: 100; slidedirection: right; slideoutdirection: left; durationin: 1000;" alt="home-slider-02-01">
 				<div id="layer-03-slide-04" class="ls-s2" style="layer1-sublayer4" data-rel="delayin: 100; slidedirection: top; slideoutdirection: bottom; durationin: 2500;">
                     <p class="style-02">Acurate Image Masking</p>
                    <!--  <a href="inside/auth.html" class="slider-button">Try 3 Images for free now <span>></span></a> -->
@@ -63,6 +69,20 @@ get_header(); // This fxn gets the header.php file and renders it ?>
                   <!--   <a href="inside/auth.html" class="slide02-button">Try Now <span>></span></a> -->
                 </div>
             </div>
+			<div class="ls-layer">
+			
+                <div id="layer-02-bg" class="ls-bg" style="layer2-background">
+				
+				</div>
+                <img id="layer-03-slide-01" class="ls-s6" src="<?php echo get_template_directory_uri();?>/assets/images/home-slider/Color-correction-1c.jpg" style="layer2-sublayer2" data-rel="delayin: 100; slidedirection: right; slideoutdirection: bottom; durationin: 2000;" alt="home-slider-02-01">
+                <img id="layer-03-slide-02" class="ls-s6" src="<?php echo get_template_directory_uri();?>/assets/images/home-slider/Color-correction-1b.jpg" style="layer2-sublayer3" data-rel="delayin: 100; slidedirection: right; slideoutdirection: left; durationin: 1500;" alt="home-slider-02-01">
+                <img id="layer-03-slide-03" class="ls-s6" src="<?php echo get_template_directory_uri();?>/assets/images/home-slider/Color-correction-1a.jpg" style="layer2-sublayer3" data-rel="delayin: 100; slidedirection: right; slideoutdirection: left; durationin: 1000;" alt="home-slider-02-01">
+				<div id="layer-03-slide-04" class="ls-s2" style="layer1-sublayer4" data-rel="delayin: 100; slidedirection: top; slideoutdirection: bottom; durationin: 2500;">
+                    <p class="style-02">Color Correction</p>
+                   <!--  <a href="inside/auth.html" class="slider-button">Try 3 Images for free now <span>></span></a> -->
+                </div>
+				
+		   </div>
           
         </div>
         <!--LayerSlider end-->
@@ -80,7 +100,7 @@ get_header(); // This fxn gets the header.php file and renders it ?>
                     <div class="contact-area">
                         <span class="lan">
                         <a href="callto:+880 (1734) 404975" class="lan"><i class="mobile-number"></i>+880 (1734) 404975</a> 
-                            <a href="callto:minucps" class="lan"><i class="icon-skype"></i> Skype</a>
+                            <a href="callto:clippingpethbest" class="lan"><i class="icon-skype"></i> Skype</a>
                             
                         </span> &nbsp;&nbsp;&nbsp;
                         <a href="mailto:info@clippingpathbest.com" class="email"><i class="icon-envelope-alt"></i> info@clippingpathbest.com</a>
@@ -108,7 +128,7 @@ get_header(); // This fxn gets the header.php file and renders it ?>
                         </div>
                         <div class="span4 item-style feature-item-2">
                             <h2>Identity Design</h2>
-                            <p>Our creative designers feel how people perceive one’s business and then go for designing the whole Corporate Identity, Logo, Business Cards, Brochures and other stationary stuffs.</p>
+                            <p>Our creative designers feel how people perceive one&apos;s business and then go for designing the whole Corporate Identity, Logo, Business Cards, Brochures and other stationary stuffs.</p>
                         </div>
                     </div>
                 </div>

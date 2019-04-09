@@ -40,6 +40,23 @@ add_theme_support( 'post-thumbnails' );
 		wp_list_pages('title_li=');
 		echo '</ul>';
 	}
+	
+	register_nav_menus(
+  array('footer' => __( 'footer-menu', 'cpbst' ),
+  'footer-service' => __( 'footer-service-menu', 'cpbst' ),
+  )
+);
+
+if (class_exists('MultiPostThumbnails')) {
+ 
+new MultiPostThumbnails(array(
+'label' => 'Secondary Image',
+'id' => 'secondary-image',
+'class'=>'service-widget-image right',
+'post_type' => 'page'
+ ) );
+ 
+ }
 
 /* Excerpt ********************************************/
 
