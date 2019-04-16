@@ -27,22 +27,22 @@
                             <li><a href="#">UI Design</a></li>
                         </ul>-->
                     </div>
-                   <div class="span3 box">
-				  
+
+					 <div class="span3 box address">
                         <h4 class="footer-title">Address</h4>
-						 <ul>
-                            <li><p class="">House# 27, Road# 11, </p></li>
-                            <li> <p class="">Block# D, Mirpur-12,</p></li>
-                            <li> <p class="">Dhaka-1216, Bangladesh</p></li>
-                        </ul>
-                        
-                           
-                           
-                    </div>
+                       
+                        <p class="contact-address"><i class="icon-map-marker"></i> 
+                            <span>House# 27, Road# 11,<br>
+                            Block# D, Mirpur-12,<br>
+                            Dhaka-1216, Bangladesh</span></p>
+                        <p class="contact-no"><i class="icon-mobile-phone"></i> <span>+880 (1734) 404975</span></p>
+                        <p class="contact-email"><i class="icon-envelope"></i><span>info@clippingpathbest.com</span></p>
+                    </div> 
                         <!-- <h4 class="footer-title">From Blog</h4>
                         <ul><li><a href="blog/indexfded.html?p=539"><p class="blog-title">New Year Greetings from Clipping Path Family</p></a></li><li><a href="blog/index5ff4.html?p=535"><p class="blog-title">Techniques Need to Use for Isolating Objects from Images</p></a></li><li><a href="blog/indexde52.html?p=530"><p class="blog-title">How to Transfer Clipping Path from One Image to Another</p></a></li><li><a href="blog/index7dad.html?p=524"><p class="blog-title">What is Clipping Path and How to Make Clipping Path Manually</p></a></li><li><a href="blog/indexcc08.html?p=519"><p class="blog-title">Great Tips to Preserve Photos for Years!</p></a></li></ul>                    </div>
                     -->
 				<div class="span3 box quick-links footer-social-area">
+				<h4 class="footer-title">Social</h4>
                         <ul>
                             <li>
                                 <img class="left" src="<?php echo get_template_directory_uri();?>/assets/images/social/fb.png" alt="facebook-link">
@@ -66,7 +66,7 @@
                                     
                                 </div>
                             </li>
-                      <li>
+							 <li>
                                 <img class="left" src="<?php echo get_template_directory_uri();?>/assets/images/social/gp.png" alt="gplus-link">
                                 <div class="link-text">
                                     <a rel="nofollow" target="_blank" href="https://plus.google.com/">Follow us on G+</a>
@@ -80,7 +80,7 @@
                                     
                                 </div>
                             </li>
-                     <li>
+							 <li>
                                 <img class="left" src="<?php echo get_template_directory_uri();?>/assets/images/social/yt.png" alt="youtube-link">
                                 <div class="link-text">
                                     <a rel="nofollow" target="_blank" href="https://www.youtube.com/channel/UCaXAXDZPH0GoVja4-xEuVNg">Subscribe on Youtube</a>
@@ -89,19 +89,37 @@
                             </li>
                         </ul>
                     </div> 
-                    <!-- <div class="span3 box address">
-                        <h4 class="footer-title">Address</h4>
-                        <p class="contact-description">Pellentesque tristique volutpat nunc, rhoncus augue tristique sed.</p>
-                        <p class="contact-address"><i class="icon-map-marker"></i> 
-                            <span>Corporation, Inc. a2z<br>
-                            salvia palace, Suite 900<br>
-                            London<br>
-                            United Kingdom 246012</span></p>
-                        <p class="contact-no"><i class="icon-mobile-phone"></i> <span><a href="callto:(123) 456-7890">(123) 456-7890</a><br>
-                            <a href="callto:(123) 987-6540">(123) 987-6540</a></span></p>
-                        <p class="contact-email"><i class="icon-envelope"></i><span><a href="mailto:email@example.com">email@example.com</a></span></p>
-                    </div> -->
+           <div class="span3 box">
+		     <h4 class="footer-title">Payment</h4>
+                         <ul>
+                            <li>
+                                <img class="left" src="<?php echo get_template_directory_uri();?>/assets/images/payment/visa.png" alt="Visa">
+                               
+                            </li>
+							 <li>
+                                <img class="left" src="<?php echo get_template_directory_uri();?>/assets/images/payment/mc.png" alt="Master-Card">
+                               
+                            </li>
+								 <li>
+                                <img class="left" src="<?php echo get_template_directory_uri();?>/assets/images/payment/ae.png" alt="American-Express">
+                               
+                            </li>
+							 <li>
+                                <img class="left" src="<?php echo get_template_directory_uri();?>/assets/images/payment/paypal.png" alt="Paypal">
+                               
+                            </li>
+							 <li>
+                                <img class="left" src="<?php echo get_template_directory_uri();?>/assets/images/payment/skrill.png" alt="Skrill">
+                               
+                            </li>
+							 <li>
+                                <img class="left" src="<?php echo get_template_directory_uri();?>/assets/images/payment/wu.png" alt="Western-Union">
+                               
+                            </li>
+							</ul>
+                    </div>
                 </div>
+				
             </div>
         </div>
         <div class="container">

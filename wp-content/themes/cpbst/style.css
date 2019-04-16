@@ -570,6 +570,22 @@ header .sub-area {
         font-family: 'Open Sans';
         font-weight: 600;
     }
+    /*.main-menu li a {
+        min-width: 170px;
+        display: block;
+        background: #404040;
+        border-bottom: 1px solid #4d4d4d;
+        padding: 8px 18px;
+        color: #fff;
+    }*/
+
+        .main-menu li a:hover {
+            background: #404040;
+            color: #fff;
+            border-radius:4px 4px 0px 0px;
+       
+        }
+
 
 .sub-menu {
     display: none;
@@ -4117,7 +4133,7 @@ fieldset {
 #layer-03-slide-01 {
     top: 0%;
     left: 66%;
-    width: 550px;
+    /*width: 550px;*/
 }
 
 #layer-03-slide-02 {
