@@ -20,7 +20,7 @@ get_header(); // This fxn gets the header.php file and renders it ?>
 
                 <div id="layer-01-slide-01" class="ls-s6" style="layer1-sublayer2" data-rel="delayin: 100; slidedirection: right; slideoutdirection: left; durationin: 1500;">
                     <p>REFLECTION</p>
-                    <img src="<?php echo get_template_directory_uri();?>/assets/images/home-slider/reflection-image-06.jpg" alt="home-slider-01">
+                    <img src="<?php echo get_template_directory_uri();?>/assets/images/home-slider/shadow-creation-ring.jpg" alt="home-slider-01">
                 </div>
 
                 <div id="layer-01-slide-02" class="ls-s4" style="layer1-sublayer3" data-rel="delayin: 100; slidedirection: bottom; slideoutdirection: bottom; durationin: 2000;">
@@ -31,7 +31,7 @@ get_header(); // This fxn gets the header.php file and renders it ?>
                 <div id="layer-01-slide-03" class="ls-s2" style="layer1-sublayer4" data-rel="delayin: 100; slidedirection: right; slideoutdirection: left; durationin: 1000;">
                     <p class="pera-01">Perfect clipping</p>
                     <p class="pera-02">at low price</p>
-                    <p class="pera-03">Starts From <span class="bold">$0.20</span></p>
+                    <p class="pera-03">Starts From <span class="bold">$0.25</span></p>
                    <!--  <a href="inside/auth.html" class="slider-button">Try 3 Images for free now <span>></span></a> -->
                 </div>
             </div>
@@ -46,7 +46,7 @@ get_header(); // This fxn gets the header.php file and renders it ?>
 			<div class="ls-layer">
 			
                 <div id="layer-02-bg" class="ls-bg" style="layer2-background"></div>
-                <img id="layer-03-slide-01" class="ls-s6" src="<?php echo get_template_directory_uri();?>/assets/images/home-slider/Images-Masking-1a.jpg" style="layer2-sublayer2" data-rel="delayin: 100; slidedirection: right; slideoutdirection: bottom; durationin: 2000;" alt="home-slider-02-01">
+                <img id="layer-03-slide-01" class="ls-s6" src="<?php echo get_template_directory_uri();?>/assets/images/home-slider/Images-Masking-1c.jpg" style="layer2-sublayer2" data-rel="delayin: 100; slidedirection: right; slideoutdirection: bottom; durationin: 2000;" alt="home-slider-02-01">
                 <img id="layer-03-slide-02" class="ls-s6" src="<?php echo get_template_directory_uri();?>/assets/images/home-slider/Images-Masking-1b.jpg" style="layer2-sublayer3" data-rel="delayin: 100; slidedirection: right; slideoutdirection: left; durationin: 1500;" alt="home-slider-02-01">
                 <img id="layer-03-slide-03" class="ls-s6" src="<?php echo get_template_directory_uri();?>/assets/images/home-slider/Images-Masking-1a.jpg" style="layer2-sublayer3" data-rel="delayin: 100; slidedirection: right; slideoutdirection: left; durationin: 1000;" alt="home-slider-02-01">
 				<div id="layer-03-slide-04" class="ls-s2" style="layer1-sublayer4" data-rel="delayin: 100; slidedirection: top; slideoutdirection: bottom; durationin: 2500;">
@@ -244,8 +244,25 @@ get_header(); // This fxn gets the header.php file and renders it ?>
                 </div>
             </div>
         </div> -->
-
-    
+		 <div class="row">
+                <div class="span12 c-p-feature">
+                    <div class="row">
+					<div class="news-latter-area">
+                       
+                            <ul>
+                                <li><p>Do You Need Photos Edited For Your Website?  <a href="<?php echo get_permalink(get_page_by_path('contact'));?>" class="" >FREE TRIAL</a></p></li>
+								
+                               
+                            </ul>
+                   
+                    </div>
+					</div>
+					</div>
+					</div>
+   
+	
+                    
+                
    
 
 <?php get_footer(); // This fxn gets the footer.php file and renders it ?>

@@ -121,7 +121,7 @@ get_header(); // This fxn gets the header.php file and renders it ?>
                                     </li>
                                     <li>
                                         <p class="list-name">Medium</p>
-                                        <p><span class="pri-start">(e.g. bag, Shoe, t-shirt, furniture) </span><span class="pri-number">$0.49</span></p>
+                                        <p><span class="pri-start">(e.g. bag, Shoe, t-shirt, furniture) </span><span class="pri-number">$0.44</span></p>
                                     </li>
                                     <li>
                                         <p class="list-name">Complex</p>
