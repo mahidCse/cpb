@@ -485,11 +485,18 @@ span.forget-button {
 /* =-=-=-=-=-=-=-=-=-=-=-=- */
 .head-area {
     background-color: #f8f8f8;
-    overflow: visible;
     width: 100%;
+    overflow: visible;
     position: relative;
+    
 }
-
+/*class for sticky header menu*/
+.sticky {
+    width: 100%;
+    position: fixed;
+    top:0;
+    z-index: 999999;
+}
 header#header {
     z-index: 15;
     width: 100%;
@@ -2686,16 +2693,17 @@ ul.contact-form {
             box-sizing: border-box;
         }
 
-        ul.contact-form li span {
+        ul.contact-form li span.icon {
             position: absolute;
             top: 0px;
             left: 0px;
             width: 37px;
             height: 38px;
             border-right: 1px solid #c9c9c9;
+            z-index: 9;
         }
 
-            ul.contact-form li span i {
+            ul.contact-form li span.icon i {
                 font-size: 20px;
                 padding: 11px;
                 line-height: 40px;
@@ -2704,21 +2712,21 @@ ul.contact-form {
         ul.contact-form li.name {
         }
 
-            ul.contact-form li.name span {
+            ul.contact-form li.name span.icon {
                 background: url('assets/images/man.png') no-repeat center;
             }
 
         ul.contact-form li.email {
         }
 
-            ul.contact-form li.email span {
+            ul.contact-form li.email span.icon {
                 background: url('assets/images/mail.png') no-repeat center;
             }
 
         ul.contact-form li.subject {
         }
 
-            ul.contact-form li.subject span {
+            ul.contact-form li.subject span.icon {
                 background: url('assets/images/subject.png') no-repeat center;
             }
 
@@ -2727,7 +2735,7 @@ ul.contact-form {
             margin-bottom: 60px;
         }
 
-            ul.contact-form li.text-area span {
+            ul.contact-form li.text-area span.icon {
                 background: url('assets/images/message.png') no-repeat center;
                 border-bottom: 1px solid #c9c9c9;
             }
