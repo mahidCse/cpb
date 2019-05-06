@@ -66,11 +66,12 @@
     </script> -->
 
     
-        <div class="sub-area">
+        <div class="sub-area" >
+		<div class="" id="sticky-navbar">
             <div class="main-wrapper fixed-area">
                 
             </div>
-            <div class="main-wrapper head-area">
+				<div class="main-wrapper head-area">
                 <div class="container">
                     <div class="row">
                         <div class="span4">
@@ -112,8 +113,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div></div>
             <div id="back-to-top"></div>
         </div>
     </header>
-	<div class="main-body">
+	<div class="main-body" >

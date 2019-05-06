@@ -24,7 +24,7 @@ get_header(); // This fxn gets the header.php file and renders it ?>
                 </div>
 
                 <div id="layer-01-slide-02" class="ls-s4" style="layer1-sublayer3" data-rel="delayin: 100; slidedirection: bottom; slideoutdirection: bottom; durationin: 2000;">
-                    <img src="<?php echo get_template_directory_uri();?>/assets/images/home-slider/perfect-clipping-image-04.jpg" alt="home-slider-02">
+                    <img src="<?php echo get_template_directory_uri();?>/assets/images/home-slider/perfect-clipping-image-05.jpg" alt="home-slider-02">
                     <p>CLIPPING PATH</p>
                 </div>
 
@@ -113,7 +113,7 @@ get_header(); // This fxn gets the header.php file and renders it ?>
         <div class="container">
             <div class="c-p-family">
                 <h1>CLIPPING PATH BEST &ndash; OUTSOURCED IMAGE-EDITING SOLUTION!</h1>
-                <p>If you need bulk image editing service with great quality, reliability and fast turnaround time!!</p>
+                <p>Are you looking for a company to edit your images? Clipping Path Best is a reliable and experienced company to edit your photos. We are a large team of some hardworking creative Photoshop experts who are giving services. No matter where are you from, just make an enquiry and order. </p>
             </div>
             <div class="row">
                 <div class="span12 c-p-feature">
@@ -190,6 +190,40 @@ get_header(); // This fxn gets the header.php file and renders it ?>
                         </div>
                     </div> -->
                 </div>
+            </div>
+        </div>
+    </div>
+	<div class="main-wrapper prome-area">
+        <div class="container">
+            <div class="row">
+			<h3>How We Works?</h2>
+                 <img  class="" src="<?php echo get_template_directory_uri();?>/assets/images/How_we_works.jpg"  alt="how we work">
+            </div>
+        </div>
+    </div>
+	 <div class="main-wrapper portfolio-area">
+        <div class="container">
+            <div class="c-p-family">
+                <h3>Why Clipping path Best?</h3>
+                </div>
+            <div class="row">
+                <div class="span12 c-p-feature">
+                    <div class="row">
+                        <div class="span4 ">
+                            <h3>Quality Work</h3>
+                            <p>We believe in quality of the work. That's why we never compromise with the quality. Work until we can make our clients happy.</p>
+                        </div>
+                        <div class="span4 ">
+                            <h3>Lower Price Guaranteed</h3>
+                            <p>Compare our price and quality with others. Clipping Path Best never ask for unexpected price. We always try to keep the price range very reasonable.</p>
+                        </div>
+                        <div class="span4 ">
+                            <h3>Time Saving</h3>
+                            <p>You don't need to wait too much. Before the time deadline, our team will finish editing your images. We deliver projects on time.</p>
+                        </div>
+                    </div>
+                </div>
+               
             </div>
         </div>
     </div>

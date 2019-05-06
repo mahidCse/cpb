@@ -144,5 +144,19 @@ get_header(); // This fxn gets the header.php file and renders it ?>
                             </div>
                         </div>
                     </div>
-
+					 <div class="row">
+                <div class="span12 c-p-feature">
+                    <div class="row">
+					<div class="news-latter-area">
+                       
+                            <ul>
+                                <li><p>Do You Need Photos Edited For Your Website?  <a href="<?php echo get_permalink(get_page_by_path('contact'));?>" class="" >FREE TRIAL</a></p></li>
+								
+                               
+                            </ul>
+                   
+                    </div>
+					</div>
+					</div>
+					</div>
 <?php get_footer(); // This fxn gets the footer.php file and renders it ?>

@@ -167,7 +167,24 @@
     
     <!-- custom scripts -->
     <script src="<?php echo get_template_directory_uri();?>/assets/js/custom.js"></script>
-    
+    <script>
+	// When the user scrolls the page, execute myFunction 
+window.onscroll = function() {myFunction()};
+
+// Get the header
+var header = document.getElementById("sticky-navbar");
+
+// Get the offset position of the navbar
+var sticky = header.offsetTop;
+
+// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}</script>
     <!-- file upload -->
         <?php wp_footer(); 
 // This fxn allows plugins to insert themselves/scripts/css/files (right here) into the footer of your website. 

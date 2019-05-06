@@ -7,61 +7,7 @@ Template Name: Contact Template
  */
 
 get_header(); // This fxn gets the header.php file and renders it ?>
-	<?php 
-	$kv_errors= array();
-if('POST' == $_SERVER['REQUEST_METHOD'] && isset($_POST['submit_form']))  {
-
-	$fields = array(
-					'kv_name',
-					'email',
-					'message',
-					'subject'
-	);
-
-	foreach ($fields as $field) {
-		if (isset($_POST[$field])) $posted[$field] = stripslashes(trim($_POST[$field])); else $posted[$field] = '';
-	}
-	if ($posted['kv_name'] == null)
-		array_push($kv_errors,  sprintf('<strong>Notice</strong>: Please enter Your Name.', 'kvcodes'));
-		
-	if ($posted['email'] == null)
-		array_push($kv_errors,  sprintf('<strong>Notice</strong>: Please enter Your Email.', 'kvcodes'));
-		
-	if ($posted['message'] == null)
-		array_push($kv_errors,  sprintf('<strong>Notice</strong>: Please enter Your Message.', 'kvcodes'));
 	
-	if ($posted['subject'] == null)
-		array_push($kv_errors,  sprintf('<strong>Notice</strong>: Please enter Your Subject.', 'kvcodes'));
-		
-	$errors = array_filter($kv_errors);
-
-	if (empty($errors)) { 	
-		if ( ! function_exists( 'wp_handle_upload' ) ) {
-			require_once( ABSPATH . 'wp-admin/includes/file.php' );
-		}
-
-		$uploadedfile = $_FILES['attachmentFile'];
-
-		$upload_overrides = array( 'test_form' => false );
-
-		$movefile = wp_handle_upload( $uploadedfile, $upload_overrides );
-
-		if ( $movefile && ! isset( $movefile['error'] ) ) {			
-			$movefile['url'];
-		}
-
-		$attachments = array($movefile['file'] );
-
-		$headers = 'From: '.$posted['kv_name'].' <'.$posted['email'].'>' . "\r\n";
-		if(wp_mail('shadhinbangla1990@gmail.com', $posted['subject'] , $posted['message'], $headers, $attachments)){
-			echo '<div style="background-color: #BBF6E2;   border: 1px solid #01BE47;    margin-top: 10px;    padding: 8px;" >  Sent Successfully </div> ' ;
-		}else {
-			echo '<div style="background-color:#FAFFBD;border:1px solid #DAAAAA;color:#D8000C;margin-top:20px;" Error occurred </div> ' ; 
-		}
-		unlink( $movefile['file'] );
-	}
-} 
-?>
 <div class="contact-area">
         <div class="container">
             <div class="row">
@@ -75,7 +21,7 @@ if('POST' == $_SERVER['REQUEST_METHOD'] && isset($_POST['submit_form']))  {
                         <div class="row">
                             <div class="span6 form-area">
                                 <h3>Send us a mail</h3>
-                             <form action="" method="post"  enctype="multipart/form-data">
+                             <!--<form action="" method="post"  enctype="multipart/form-data">
                                      <ul class="contact-form">
                                         <li class="name">
                                             <span></span>
@@ -85,14 +31,7 @@ if('POST' == $_SERVER['REQUEST_METHOD'] && isset($_POST['submit_form']))  {
                                             <span></span>
                                             <input type="email" name="email" required placeholder="Your E-mail" />
                                         </li>
-                                       <!-- <li class="phone">
-                                            <span><i class="icon-phone"></i></span>
-                                            <input type="text" name="phone" placeholder="Your Phone" />
-                                        </li>
-                                        <li class="country">
-                                            <span><i class="icon-globe"></i></span>
-                                            <input type="text" name="country" placeholder="Your Country" />
-                                        </li>-->
+                                       
                                         <li class="subject">
                                             <span></span>
                                             <input type="text" name="subject" required placeholder="Subject" />
@@ -111,8 +50,29 @@ if('POST' == $_SERVER['REQUEST_METHOD'] && isset($_POST['submit_form']))  {
                                             <input type="submit" id="submit" name="submit_form" value="Send" />
                                         </li>
                                     </ul>
-                                </form>
-								
+                                </form>-->
+				<?php if ( have_posts() ) : 
+					// Do we have any posts in the databse that match our query?
+					?>
+
+						<?php while ( have_posts() ) : the_post(); 
+						// If we have a post to show, start a loop that will display it
+						?> <?php the_content(); 
+									// This call the main content of the post, the stuff in the main text box while composing.
+									// This will wrap everything in p tags
+									?>
+									<?php endwhile; // OK, let's stop the post loop once we've displayed it ?>
+				
+					
+                        	</p><?php else : // Well, if there are no posts to display and loop through, let's apologize to the reader (also your 404 error) ?>
+					<article class="post error">
+							<h1 class="404">Nothing has been posted like that yet</h1>
+						</article>
+
+					
+                               </div>
+							<?php endif; // OK, I think that takes care of both scenarios (having a post or not having a post to show) ?>
+                        
                             </div>
                             <div class="span6 address-area">
                                 <h3>Office Locations</h3>
