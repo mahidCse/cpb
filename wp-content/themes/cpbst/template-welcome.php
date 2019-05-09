@@ -196,8 +196,42 @@ get_header(); // This fxn gets the header.php file and renders it ?>
 	<div class="main-wrapper prome-area">
         <div class="container">
             <div class="row">
-			<h3>How We Works?</h2>
-                 <img  class="" src="<?php echo get_template_directory_uri();?>/assets/images/How_we_works.jpg"  alt="how we work">
+			<!--<h3>How We Works?</h2>
+                 <img  class="" src="<?php echo get_template_directory_uri();?>/assets/images/How_we_works.jpg"  alt="how we work">-->
+				  <div class="span12">
+                    <div class="we-are">
+                        <span class="left-shadow"></span>
+                        <h3 class="we-are-head">How we works</h3>
+                        <span class="right-shadow"></span>
+                    </div>
+                    <div class="we-are-about processing">
+                        <div class="animation-image">
+                            <img class="image01" src="<?php echo get_template_directory_uri();?>/assets/images/animate-img2.png">
+                            <img class="image02" src="<?php echo get_template_directory_uri();?>/assets/images/working-bg2.png">
+                        </div>
+                        <div class="working-process">
+                            <div class="side-area">
+                                <div class="step1-side">
+                                    <h3>1. Request a quote for the images you need to be edited</h3>
+                                </div>
+                                <div class="step2-side">
+                                    <h3>2. Receive our confirmation mail</h3>
+                                </div>
+                                <div class="step3-side">
+                                    <h3>3. Stay cool &amp; keep faith on us</h3>
+                                </div> 
+								<div class="step4-side">
+                                    <h3>4. Get your edited images</h3>
+                                </div>
+								<div class="step5-side">
+                                    <h3>5. Be happy &amp; Thank us</h3>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+            
+                </div>
             </div>
         </div>
     </div>

@@ -3505,11 +3505,18 @@ margin: 0 0 10px 25px;
     margin-right: 210px;
     text-align: center;
 }
-
+.step1-side, .step2-side, .step3-side, .step4-side, .step5-side{
+    width: 15%;
+    float: left;
+    margin-right: 30px;
+    text-align: center;
+}
 .c-side {
     margin: 0;
 }
-
+.step5-side {
+    margin: 0;
+}
 .side-area h3 {
     font-size: 18px;
     font-weight: bold;
