@@ -55,7 +55,21 @@ new MultiPostThumbnails(array(
 'class'=>'service-widget-image right',
 'post_type' => 'page'
  ) );
+ new MultiPostThumbnails(array(
+'label' => 'Secondary Image 2',
+'id' => 'secondary-image2',
+'class'=>'service-widget-image right',
+'post_type' => 'page'
+ ) );
  
+ new MultiPostThumbnails(array(
+'label' => 'Secondary Image 3',
+'id' => 'secondary-image3',
+'class'=>'service-widget-image right',
+'post_type' => 'page'
+ ) );
+
+  
  }
 
 /* Excerpt ********************************************/
